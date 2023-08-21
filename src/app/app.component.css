@@ -1,0 +1,104 @@
+
+.formwrapper{
+    width:100%;
+}   
+.nav{
+    margin:0px;
+    width:100%;
+    border:1px solid lightgray;
+    padding:12px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+}
+.title{
+    margin-top: 10px;
+}
+.signup{
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly; 
+}
+.sub{
+    text-align: center;
+    font-style: italic;
+    color:rgb(17, 32, 46);
+}
+.signup-sub{
+    margin-top: -20px;
+    color:blueviolet;
+}
+
+/*body*/
+.body{
+ margin-top:20px;
+ width:100%;
+}
+/*footer*/
+.footer{
+    width:100%;
+    background-color: black;
+    color:white;
+    margin-top:20px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    
+}
+.school-logo{
+    display:flex;
+    justify-content: space-between;
+    color:coral;
+}
+.bind{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    width:100%;
+}
+.title{
+    margin-top: 20px;
+}
+.social{
+    color:blue;
+    margin-top: 90px;
+    margin-left: -300px;
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.bind2{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.building{
+    width:30px;
+    height: 30px;
+    margin-top: 10px;
+    color:coral;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    gap:10px; 
+    margin-top:30px;
+}
+.footer-img2{
+    color:blueviolet;
+    width:20px;
+    height: 20px;
+    margin-top: -4px;
+}
+.footer-img1{
+    width:150px;
+    height: 150px;
+    
+}
+p{
+    color: lightgray;
+    margin-top: -4px;
+}

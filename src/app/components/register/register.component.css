@@ -1,0 +1,65 @@
+.flex{
+    margin:0px -12px;
+    margin-top:-5px;
+    border:1px solid lightgray;
+    padding:12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px
+}
+.feed{
+    width:440px;
+    padding: 30px;
+    background-color: rgb(153, 174, 202);
+}
+.sidebar1{
+    width:400px;
+    background-color: white;
+    padding: 10px;
+}
+.sidebar2{
+    width:400px;
+    background-color: white;
+    padding: 10px;
+}
+
+.btn{
+    margin-left: 140px;
+    width:100px
+}
+
+/*side bar2*/
+.add{
+    position: relative;
+    position: sticky;
+    top: 0px;
+}
+.relative{ 
+    background-color: white;
+    color: rgb(253, 97, 97);
+    padding: 2px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    margin: 0px;
+}
+.bi{
+    width: 50px;
+    height: 50px;
+}
+.asset{
+    width: 90px;
+}
+
+/*side bar1*/
+.card-img1{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+.err-msg{
+    color:red;
+}

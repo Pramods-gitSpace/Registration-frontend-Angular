@@ -1,0 +1,37 @@
+<div><h1 class="text-center text-secondary mb-2">School Staff</h1></div>
+ <div class="form-wrapper">
+    <div class="nav">
+        <div class="search">
+            <input type="text" value="" placeholder="subject" class="form-control relative" #input [(ngModel)]="Null">
+            <div class="absolute"><button type="submit"  (click)="searchclick(input.value)" class="btn btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="scope bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+            </div>
+            <div class="links">
+                <div class="linka"><a routerLink="/students" routerLinkActive="active">All</a></div>
+                <div class="link"><a routerLink="/" routerLinkActive="active">Home</a></div>
+                <div class="link"><a routerLink="/" routerLinkActive="active">Contacts</a></div>
+                <div class="link"><a routerLink="/login" routerLinkActive="active">Logout</a></div>
+           </div> 
+        
+         </div>
+         
+          
+    </div>
+     <div class="flexbox">
+            <div class="card" *ngFor="let item of teacher">
+                <img src="{{item.imgsrc}}" alt="" class="card-img">
+                <div class="title">
+                    <h3>{{item.name}}</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                      </svg>
+                </div>
+                <h6>{{item.subject}} Teacher</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>    
+     </div>
+ </div>
+
+
